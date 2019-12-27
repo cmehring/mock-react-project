@@ -1,0 +1,174 @@
+body, html {
+  margin: 0;
+  padding : 0; 
+  width : 100%;
+  height : 100%;
+  overflow-x : hidden;
+}
+/*an overlay for the generating screen*/
+#overlay {
+  position: absolute;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  background: #000;
+  opacity: 0.8;
+  filter: alpha(opacity=80);
+}
+/*error display for a failed input*/
+.error {
+  color : red;
+  font-size : 20px;
+}
+/*the words on the overlay*/
+#loading {
+  padding : 10%;
+  color : white;
+  font-family : "Roboto", sans-serif;
+}
+/*tab component list*/
+.tab-list {
+  border-bottom: 1px solid #ccc;
+}
+/*tab component labels*/
+.tab-list-item {
+  font-family : "Roboto", sans-serif;
+  display: inline-block;
+  list-style: none;
+  margin-bottom: -1px;
+  padding: 0.5rem 0.75rem;
+  cursor : pointer;
+  color : #00000099;
+  font-size : 14px;
+  font-weight : 600; 
+  margin : 5% 9% 0 9%;
+}
+/*active tab item*/
+.tab-list-active {
+  color : #6200EE;
+  border: solid #6200EE;
+  border-width: 0 0 3px 0;
+}
+/*this is for the third tab.js to keep boxes aligned*/
+#downl {
+ text-align : right;
+ width : 70%;
+}
+/*main header for the Business Card Generator*/
+.header {
+  font-family: 'Roboto', sans-serif;
+  font-size : 56px; 
+  letter-spacing: 0; 
+  color : #FFFFFFDE; 
+  background-color : #6200EE;
+  height : 200px;
+}
+/*Opening title after business card*/
+.main-title{
+  font-weight : 600; 
+  font-family : 'Open Sans', sans-serif; 
+  font-size: 56px;
+  letter-spacing: 0;
+  color: #25272BDE;
+}
+/*every button*/
+.start-here {
+  width: 152px;
+  height: 48px;
+  background: #6200EE 0% 0% no-repeat padding-box;
+  box-shadow: 0px 1px 3px #00000033;
+  border-radius: 4px;
+  opacity: 1;
+  color : white;
+  float : right;
+  text-decoration: none;
+  text-align : center;
+}
+
+.start-here:hover{
+  background-color : lightblue;
+}
+/*the hider for the components*/
+#hider {
+  visibility: hidden;
+}
+/*extra button additions for the download button*/
+.start-here-add {
+  padding-top : 10px;
+}
+/*download image, the image in the third tab*/
+#di {
+  width: 404px;
+  height: 184px;
+}
+/*the box container for the second tab*/
+#downr {
+  width : 405px;
+}
+/*paragraph in the main title*/
+p{
+  color: #3C4043DE;
+  font-family : 'Open Sans', sans-serif;
+  font-size : 18px;
+}
+/*the card for the business card for tab 2*/
+.card {
+  width: 404px;
+  height: 184px;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #707070;
+  border-radius: 15px;
+  opacity: 1; 
+  font-family : 'Open Sans', sans-serif;
+  font-size : 18px;
+  text-align : center; 
+  color: #3C4043DE;
+  float : center;
+}
+
+.card-name {
+  padding-left : 10px;
+  text-align : left; 
+}
+
+.card-company {
+  text-align : center; 
+  padding : 30px;
+}
+
+.card-email {
+  padding-left : 10px;
+  text-align : left;
+  display : inline-block;
+}
+
+.card-phone {
+  margin-top : -25px;
+  padding-right : 10px;
+  text-align : right;
+  display: inline-block;
+}
+/*inputs for the first tab*/
+.send-message {
+  width : 335px;
+}
+
+.send-name {
+  background-color : white;
+  font-family : 'Open Sans', sans-serif;
+  font-size : 12px;
+}
+
+.send-box{
+  width: 328px;
+  height: 56px;
+  border: 1px solid #000000;
+  border-radius: 4px;
+  opacity: 1;
+}
+
+.send-box:focus{
+  border: 2px solid #6200EE;
+}
+
